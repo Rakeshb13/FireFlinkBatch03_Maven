@@ -12,13 +12,16 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-
+ 
+   //@author [--Rakesh B--]
 
 public class BaseTest implements FrameworkConstant{
 	
 	public DataUtility data_Utility = new DataUtility();
 	public static WebDriver driver;
 	public HomePage home_Page;
+	
+	// Changes made by shilpa 
 	
 	@BeforeClass(alwaysRun = true)
 	public void launchBrowser() throws IOException {
