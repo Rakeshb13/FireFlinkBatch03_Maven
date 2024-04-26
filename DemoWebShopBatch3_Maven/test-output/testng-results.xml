@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Books Page Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Fiction Ex Product Page Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Wish List Page Displayed]]>
+    </line>
+    <line>
+      <![CDATA[verify_User_Is_Able_To_Add_Product_To_WishList Test Case Pass..]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-04-25T11:56:16 IST" name="Suite" finished-at="2024-04-25T11:56:44 IST" duration-ms="27732">
+    <groups>
+      <group name="Functionality">
+        <method signature="Books01Test.verify_Books_Page_Is_Displayed()[pri:0, instance:org.automation.test_scripts.Books01Test@7c729a55]" name="verify_Books_Page_Is_Displayed" class="org.automation.test_scripts.Books01Test"/>
+        <method signature="Books02Test.verfy_Computing_And_Internet_Page_Is_Displayed()[pri:0, instance:org.automation.test_scripts.Books02Test@5ffead27]" name="verfy_Computing_And_Internet_Page_Is_Displayed" class="org.automation.test_scripts.Books02Test"/>
+      </group> <!-- Functionality -->
+    </groups>
+    <test started-at="2024-04-25T11:56:16 IST" name="Test" finished-at="2024-04-25T11:56:44 IST" duration-ms="27732">
+      <class name="org.automation.test_scripts.Books02Test">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.automation.test_scripts.Books02Test@5ffead27]" started-at="2024-04-25T11:56:25 IST" name="launchBrowser" finished-at="2024-04-25T11:56:29 IST" duration-ms="3879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="performLogin()[pri:0, instance:org.automation.test_scripts.Books02Test@5ffead27]" started-at="2024-04-25T11:56:29 IST" name="performLogin" finished-at="2024-04-25T11:56:30 IST" duration-ms="1448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="verfy_Computing_And_Internet_Page_Is_Displayed()[pri:0, instance:org.automation.test_scripts.Books02Test@5ffead27]" started-at="2024-04-25T11:56:30 IST" name="verfy_Computing_And_Internet_Page_Is_Displayed" finished-at="2024-04-25T11:56:34 IST" duration-ms="3210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfy_Computing_And_Internet_Page_Is_Displayed -->
+        <test-method is-config="true" signature="performLogout()[pri:0, instance:org.automation.test_scripts.Books02Test@5ffead27]" started-at="2024-04-25T11:56:34 IST" name="performLogout" finished-at="2024-04-25T11:56:35 IST" duration-ms="979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.automation.test_scripts.Books02Test@5ffead27]" started-at="2024-04-25T11:56:35 IST" name="closeBrowser" finished-at="2024-04-25T11:56:35 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.automation.test_scripts.Books02Test -->
+      <class name="org.automation.test_scripts.Books01Test">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.automation.test_scripts.Books01Test@7c729a55]" started-at="2024-04-25T11:56:16 IST" name="launchBrowser" finished-at="2024-04-25T11:56:21 IST" duration-ms="5139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="performLogin()[pri:0, instance:org.automation.test_scripts.Books01Test@7c729a55]" started-at="2024-04-25T11:56:21 IST" name="performLogin" finished-at="2024-04-25T11:56:23 IST" duration-ms="1520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="verify_Books_Page_Is_Displayed()[pri:0, instance:org.automation.test_scripts.Books01Test@7c729a55]" started-at="2024-04-25T11:56:23 IST" name="verify_Books_Page_Is_Displayed" finished-at="2024-04-25T11:56:24 IST" duration-ms="1305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Books_Page_Is_Displayed -->
+        <test-method is-config="true" signature="performLogout()[pri:0, instance:org.automation.test_scripts.Books01Test@7c729a55]" started-at="2024-04-25T11:56:24 IST" name="performLogout" finished-at="2024-04-25T11:56:25 IST" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.automation.test_scripts.Books01Test@7c729a55]" started-at="2024-04-25T11:56:25 IST" name="closeBrowser" finished-at="2024-04-25T11:56:25 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.automation.test_scripts.Books01Test -->
+      <class name="org.automation.test_scripts.Books03Test">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.automation.test_scripts.Books03Test@6356695f]" started-at="2024-04-25T11:56:35 IST" name="launchBrowser" finished-at="2024-04-25T11:56:38 IST" duration-ms="3348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="performLogin()[pri:0, instance:org.automation.test_scripts.Books03Test@6356695f]" started-at="2024-04-25T11:56:38 IST" name="performLogin" finished-at="2024-04-25T11:56:40 IST" duration-ms="1433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method signature="verify_User_Is_Able_To_Add_Product_To_WishList()[pri:0, instance:org.automation.test_scripts.Books03Test@6356695f]" started-at="2024-04-25T11:56:40 IST" name="verify_User_Is_Able_To_Add_Product_To_WishList" finished-at="2024-04-25T11:56:43 IST" duration-ms="3293" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Books Page Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Fiction Ex Product Page Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Wish List Page Displayed]]>
+            </line>
+            <line>
+              <![CDATA[verify_User_Is_Able_To_Add_Product_To_WishList Test Case Pass..]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_User_Is_Able_To_Add_Product_To_WishList -->
+        <test-method is-config="true" signature="performLogout()[pri:0, instance:org.automation.test_scripts.Books03Test@6356695f]" started-at="2024-04-25T11:56:43 IST" name="performLogout" finished-at="2024-04-25T11:56:44 IST" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.automation.test_scripts.Books03Test@6356695f]" started-at="2024-04-25T11:56:44 IST" name="closeBrowser" finished-at="2024-04-25T11:56:44 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.automation.test_scripts.Books03Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
