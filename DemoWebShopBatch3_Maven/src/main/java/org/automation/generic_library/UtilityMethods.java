@@ -2,6 +2,7 @@ package org.automation.generic_library;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.LocalDateTime;
 import java.util.Random;
 
 import org.openqa.selenium.JavascriptExecutor;
@@ -14,6 +15,11 @@ import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.Select;
 
 public class UtilityMethods implements FrameworkConstant{
+	
+	public String getLocalTime()
+	{
+		return LocalDateTime.now().toString().replace(":", "-");
+	}
 	
 	public int getRandomNumber() {
 		Random r = new Random();
@@ -43,9 +49,9 @@ public class UtilityMethods implements FrameworkConstant{
 		js.executeScript("arguments[0].scrollIntoView(" + value + ")", target);
 	}
 	
-	public void toCaptureScreenShot(WebDriver driver, String name)
+	public String toCaptureScreenShot(WebDriver driver)
 	{
-		String path=screenshot_Path+name+".png";
+		String path=screenshot_Path + getLocalTime() + ".png";
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		File src=ts.getScreenshotAs(OutputType.FILE);
 		File trg= new File(path);
@@ -55,6 +61,8 @@ public class UtilityMethods implements FrameworkConstant{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		return "."+path;
 	}
 	
 

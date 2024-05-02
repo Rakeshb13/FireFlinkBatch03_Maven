@@ -3,15 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.automation.test_scripts.Books03">
+      <class name="org.automation.test_scripts.Books03Test">
         <methods>
           <include name="performLogin"/>
           <include name="performLogout"/>
           <include name="verify_User_Is_Able_To_Add_Product_To_WishList"/>
           <include name="closeBrowser"/>
+          <include name="flushReports"/>
+          <include name="generateReport"/>
           <include name="launchBrowser"/>
         </methods>
-      </class> <!-- org.automation.test_scripts.Books03 -->
+      </class> <!-- org.automation.test_scripts.Books03Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
