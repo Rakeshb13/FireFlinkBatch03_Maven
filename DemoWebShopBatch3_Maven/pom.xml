@@ -43,7 +43,7 @@
 			        <version>3.1.2</version>
 			        <configuration>
 			        <suiteXmlFiles>
-			        <suiteXmlFile>BatchExecution.xml</suiteXmlFile>
+			        <suiteXmlFile>BatchExecution1.xml</suiteXmlFile>
 			        </suiteXmlFiles>
 			        </configuration>
 			</plugin>
@@ -60,7 +60,7 @@
 					        <version>3.1.2</version>
 					        <configuration>
 			        		<suiteXmlFiles>
-					        <suiteXmlFile>BooksModuleTestCases.xml</suiteXmlFile>
+					        <suiteXmlFile>BooksModuleTestCases1.xml</suiteXmlFile>
 					        </suiteXmlFiles>
 			        		</configuration>
 						</plugin>
@@ -77,7 +77,7 @@
 					        <version>3.1.2</version>
 					        <configuration>
 			        		<suiteXmlFiles>
-					        <suiteXmlFile>DigitalDownloadsTestCases.xml</suiteXmlFile>
+					        <suiteXmlFile>DigitalDownloadsTestCases1.xml</suiteXmlFile>
 					        </suiteXmlFiles>
 			        		</configuration>
 						</plugin>
@@ -94,7 +94,7 @@
 					        <version>3.1.2</version>
 					        <configuration>
 			        		<suiteXmlFiles>
-					        <suiteXmlFile>RegisterTestCases.xml</suiteXmlFile>
+					        <suiteXmlFile>RegisterTestCases1.xml</suiteXmlFile>
 					        </suiteXmlFiles>
 			        		</configuration>
 						</plugin>
